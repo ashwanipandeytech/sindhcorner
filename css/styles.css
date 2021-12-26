@@ -29107,3 +29107,35 @@ html {
 	font-weight: 500;
 	text-transform: uppercase;
 }
+.carousel-btn {
+	margin-top: -40px;
+	right: 30px;
+	z-index: 5;
+}
+.carousel-btn.btn-prev { right: 75px; }
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	border-top: 0;
+	border-bottom: 0;
+}
+#carouselExampleIndicators-2 .carousel-indicators li { background-color: #ffaa3b; }
+.right-side-content .heading-title {
+	color: #642F21;
+	font-family: "Oswald", Sans-serif;
+	font-size: 52px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 1.3em;
+	margin-bottom: 20px;
+}
+.right-side-content p {
+	margin-bottom: 20px;
+}
+.right-side-content ul li {
+		color: #642F21;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 25px;
+}
