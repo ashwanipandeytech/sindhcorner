@@ -28977,11 +28977,12 @@ html {
 }
 
 .services-content-wrapper {
-	background-image: url('../img/bg-05.jpg');
+	background-image: url('../img/menuandother/Poster.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 40px 0px 0px 0px;
+	height: 308px;
 }
 .services-content-wrapper .abox-4 h5, .services-content-wrapper .abox-4 p {
 	color: #FFFFFF;
@@ -28989,9 +28990,9 @@ html {
 
 /* Menubanner Section Starts Here*/
 .menu-banner-section {
-  padding: 205px 0px 182px;
-  background-color: #71b85f;
-  background-image: url(../img/food-pattern.png);
+  /* padding: 205px 0px 182px;
+  background-color: black; */
+  /* background-image: url(../img/food-pattern.png); */
   background-position: center;
   position: relative;
   overflow: hidden;
@@ -29068,7 +29069,7 @@ html {
 }
 
 .hero-section {
-	background-image: url('../img/hero-10.jpg');
+	background-image: url('../img/homepagebanner/Rsgla.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
