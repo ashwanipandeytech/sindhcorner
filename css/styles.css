@@ -10268,6 +10268,10 @@ hr.solidhr {
 		width: auto;
 		max-width: inherit;
 		max-height: 80px;
+		padding: 0;
+    position: relative;
+    top: 7px;
+    background-color: #fff;
 	}
 
 	.header .navik-header .logo img {
@@ -12760,6 +12764,7 @@ ul.txt-list {
 
 .section-title h2.h2-title {
 	font-size: 4.5rem;
+	font-weight: 900;
 }
 
 .section-title p {
@@ -29594,7 +29599,7 @@ nav a#pull {
 .homepage-section .heading-wrapper h2 {
 	color: #303030;
 	font-size: 3.2rem;
-	font-weight: 700;
+	font-weight: 900;
 	font-family: var(--title-h2-font-family);
 	text-transform: var(--title-h2-text-transform);
 	line-height: var(--title-h2-line-height);
@@ -29660,6 +29665,10 @@ nav a#pull {
 
 .homepage-section.category-section-wrapper .categories-wrap .item .item-center .icon-box a img {
 	transition: 1s ease-in-out;
+		width: 370px;
+    height: 245px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .homepage-section.category-section-wrapper .categories-wrap .item .item-center .icon-box:hover a img {
@@ -29875,7 +29884,7 @@ nav a#pull {
 	color: #642F21;
 	font-family: "Oswald", Sans-serif;
 	font-size: 52px;
-	font-weight: 500;
+	font-weight: 900;
 	text-transform: uppercase;
 	line-height: 1.3em;
 	margin-bottom: 20px;
@@ -29913,6 +29922,8 @@ nav a#pull {
 .review-block .carousel-item img {
 	width: 120px;
 	height: 120px;
+	object-fit: cover;
+	object-position: center;
 	display: inline-block;
 	margin: 0 auto 20px;
 	-webkit-border-radius: 100%;
