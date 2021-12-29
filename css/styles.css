@@ -17924,17 +17924,18 @@ select:-webkit-autofill:focus {
 
 .footer {
 	padding-top: 80px;
-	padding-bottom: 40px;
+	/* padding-bottom: 40px; */
 }
 
 #footer-3.footer {
-	padding-bottom: 80px;
+	/* padding-bottom: 80px; */
 	border-top: 1px solid #f6f9fa;
 }
 
 .footer.bg-red,
 .footer.bg-dark {
-	background-image: url(../images/footer-red.html);
+	/* background-image: url(../images/footer-red.html); */
+	background-image: url('../img/footerBG.jpg');
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -18057,6 +18058,9 @@ select:-webkit-autofill:focus {
 	padding: 0;
 }
 
+.footer-links li a {
+	color: #e3c25f;
+}
 .footer-links li p {
 	margin-bottom: 10px;
 }
@@ -18068,7 +18072,7 @@ select:-webkit-autofill:focus {
 #footer-3 .footer-socials-links {
 	text-align: center;
 	margin-top: 40px;
-	margin-bottom: 12px;
+	margin-bottom: 30px;
 }
 
 .foo-socials {
@@ -18093,8 +18097,11 @@ select:-webkit-autofill:focus {
 	font-size: 23px;
 	line-height: 1;
 	margin: 0 2px;
+	color: #e3c25f;
 }
-
+footer a:hover {
+	color: #f7be27;
+}
 /*------------------------------------------*/
 /*  FOOTER INSTAGRAM IMAGES
   /*------------------------------------------*/
@@ -18138,11 +18145,15 @@ select:-webkit-autofill:focus {
 .footer-copyright p {
 	line-height: 1;
 	margin-bottom: 0;
+	color: #e3c25f;
+}
+.address-text p {
+	color: #e3c25f;
 }
 
-#footer-3 .footer-copyright p {
+/* #footer-3 .footer-copyright p {
 	margin-top: 10px;
-}
+} */
 
 /*------------------------------------------*/
 /*  BOOTOM FOOTER LINKS
