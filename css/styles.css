@@ -14457,6 +14457,7 @@ span.item-code {
 /*  Main Menu Link Hover 
   /*------------------------------------------*/
 
+.navik-menu.navik-yellow ul li.active>a,
 .navik-menu.navik-yellow ul li:hover>a,
 .navik-menu.navik-yellow .mega-menu-heading a:hover {
 	color: #f7be27;
@@ -16404,6 +16405,10 @@ body.boxed .header.navik-header.sticky {
 
 .hover-overlay img,
 .hover-overlay .elementor-image img {
+	width: 290px;
+	height: 290px;
+	object-fit: cover;
+	object-position: center;
 	transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform: scale(1);
@@ -17490,14 +17495,14 @@ img.appstore-original {
 }
 
 .contact-style3 .contact-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 	width: 67px;
 	height: 67px;
 	background: #f2f2f2;
-	text-align: center;
-	line-height: 67px;
 	font-size: 30px;
 	border-radius: 100%;
-	display: inline-block;
 	vertical-align: top;
 }
 
@@ -29812,23 +29817,31 @@ nav a#pull {
 	transition: all ease 0.3s;
 }
 
-.hero-section {
+/* .hero-section {
 	background-image: url('../img/homepagebanner/Rsgla.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 	padding: 200px 0px 200px 0px;
+} */
+#carouselExampleIndicators-5 .carousel-item img {
+	max-height: 100vh;
 }
 
 .hero-section-title {
 	color: #FFFFFFD6;
-	font-family: "Oswald", Sans-serif;
+	font-family: 'Lilita One', cursive;
+	font-size: 7.25rem;
+	line-height: 1.1;
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+	/* font-family: "Oswald", Sans-serif;
 	font-size: 76px;
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	padding: 30px 0px 30px 0px;
+	padding: 30px 0px 30px 0px; */
 }
 
 .hero-section-items {
@@ -29923,7 +29936,7 @@ nav a#pull {
 	width: 120px;
 	height: 120px;
 	object-fit: cover;
-	object-position: center;
+	object-position: top;
 	display: inline-block;
 	margin: 0 auto 20px;
 	-webkit-border-radius: 100%;
@@ -29947,3 +29960,6 @@ nav a#pull {
 	letter-spacing: 0.5px;
 	margin-bottom: 35px;
 }
+
+.address .svg-inline--fa.fa-w-12 { width: 0.75em; }
+.address .svg-inline--fa.fa-w-16 { width: 1em; }
