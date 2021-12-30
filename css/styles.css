@@ -16406,7 +16406,7 @@ body.boxed .header.navik-header.sticky {
 
 .hover-overlay img,
 .hover-overlay .elementor-image img {
-	width: 290px;
+	width: 100%;
 	height: 290px;
 	object-fit: cover;
 	object-position: center;
@@ -21133,10 +21133,10 @@ nav a#pull {
 	}
 
 	/* Hero Slider */
-	.slider,
 	.slider .slides {
 		height: 440px;
 	}
+	/* .services-content-wrapper { height: 239px !important; } */
 
 	#hero-3 .slider,
 	#hero-6 .slider,
@@ -26327,7 +26327,6 @@ nav a#pull {
 	}
 
 	/* Hero Slider */
-	.slider,
 	.slider .slides {
 		height: 320px;
 	}
@@ -27532,7 +27531,7 @@ nav a#pull {
 	}
 
 	#footer-3 .footer-logo img {
-		max-height: 100px;
+		max-height: 95px;
 	}
 
 	.footer h5 {
@@ -29977,3 +29976,4 @@ nav a#pull {
 
 .address .svg-inline--fa.fa-w-12 { width: 0.75em; }
 .address .svg-inline--fa.fa-w-16 { width: 1em; }
+.gallery-content .row { margin: 0; }
