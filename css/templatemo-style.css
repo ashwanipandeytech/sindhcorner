@@ -1,27 +1,25 @@
-
-  a:hover, a:active, a:focus {
-    color: #ce3232;
+a:hover,
+a:active,
+a:focus {
     outline: none;
-  }
+}
 
-  ::-webkit-scrollbar{
+ ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
-  }
+}
 
-  ::-webkit-scrollbar-thumb {
+ ::-webkit-scrollbar-thumb {
     cursor: pointer;
     background: #000000;
-  }
+}
 
 
-
-
-  /*---------------------------------------
+/*---------------------------------------
        PRE LOADER              
   -----------------------------------------*/
 
-  .preloader {
+.preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -33,15 +31,15 @@
     justify-content: center;
     align-items: center;
     background: none repeat scroll 0 0 #ffffff;
-  }
+}
 
-  .spinner {
+.spinner {
     border: 1px solid transparent;
     border-radius: 3px;
     position: relative;
-  }
+}
 
-  .spinner:before {
+.spinner:before {
     content: '';
     box-sizing: border-box;
     position: absolute;
@@ -55,27 +53,26 @@
     border: 1px solid #575757;
     border-top-color: #ffffff;
     animation: spinner .9s linear infinite;
-  }
+}
 
-
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .slider .col-md-8 {
-      padding-left: 0;
+        padding-left: 0;
     }
-  }
+}
 
-  .slider .owl-dots {
+.slider .owl-dots {
     position: absolute;
     top: 50%;
     right: 2em;
     justify-content: center;
-  }
+}
 
-  .owl-theme .owl-dots .owl-dot {
+.owl-theme .owl-dots .owl-dot {
     display: block;
-  }
+}
 
-  .owl-theme .owl-dots .owl-dot span {
+.owl-theme .owl-dots .owl-dot span {
     width: 12px;
     height: 12px;
     margin: 7px 10px;
@@ -85,65 +82,61 @@
     -webkit-backface-visibility: visible;
     transition: opacity 200ms ease;
     border-radius: 30px;
-  }
+}
 
-  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
     background-color: #ffffff;
     border-color: transparent;
-  }
+}
 
-  .slider .caption {
+.slider .caption {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: left;
-  
     height: 100%;
     color: #fff;
     cursor: e-resize;
     padding: 4em 0 0 2em;
-  }
+}
 
-  .slider .item {
+.slider .item {
     background-position: inherit;
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
     height: 650px;
-  }
+}
 
-  .slider .item-first {
+.slider .item-first {
     background-image: url(../img/homepagebanner/Rsgla.jpg);
-  }
+}
 
-  .slider .item-second {
+.slider .item-second {
     background-image: url(../img/homepagebanner/1\ kj\ ktli.jpg);
-  }
+}
 
-  .slider .item-third {
+.slider .item-third {
     background-image: url(../img/homepagebanner/Rs\ mlai.jpg);
-  }
+}
 
-  .slider .item-second .section-btn {
+.slider .item-second .section-btn {
     background: #292929;
-  }
+}
 
-  .slider .item-second .section-btn:hover {
+.slider .item-second .section-btn:hover {
     background: #ffffff;
-  }
+}
 
-  .slider .item-third .section-btn {
+.slider .item-third .section-btn {
     background: transparent;
     border: 1px solid #ffffff;
-  }
+}
 
-  .slider .item-third .section-btn:hover,
-  .slider .item-third .section-btn:focus {
+.slider .item-third .section-btn:hover,
+.slider .item-third .section-btn:focus {
     background: #ce3232;
     border-color: transparent;
     color: #ffffff;
-  }
-
-
-
-  
+}
