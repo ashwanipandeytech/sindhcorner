@@ -14657,8 +14657,9 @@ body.boxed .header.navik-header.sticky {
 /*  HERO SLIDER
   /*------------------------------------------*/
 
+  
 .slider {
-	position: relative;
+	position: absolute;
 	max-width: 100%;
 	height: 660px;
 }
