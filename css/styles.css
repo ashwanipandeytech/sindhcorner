@@ -17936,8 +17936,8 @@ select:-webkit-autofill:focus {
 
 .footer.bg-red,
 .footer.bg-dark {
-	/* background-image: url(../images/footer-red.html); */
-	background-image: url('../img/footerBG.jpg');
+	background-image: url(../images/footer-red.html);
+	/* background-image: url('../img/footerBG.jpg'); */
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -29977,3 +29977,23 @@ nav a#pull {
 .address .svg-inline--fa.fa-w-12 { width: 0.75em; }
 .address .svg-inline--fa.fa-w-16 { width: 1em; }
 .gallery-content .row { margin: 0; }
+/* #footer-3 {margin-top: 100px;} */
+.whatsApp-form {
+	max-width: 900px;
+	background-color: #563a2b;
+	padding: 15px;
+	position: relative;
+	margin-bottom: -40px;
+	z-index: 9;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	color: #f7be27;
+ }
+ .whatsApp-form .subs-head {
+	 font-size: 24px;
+	 font-weight: 700;
+	 letter-spacing: -0.5px;
+	 font-family: 'Oswald', sans-serif;
+	}
+	.whatsApp-form .subs-body { font-size: 12px; }
