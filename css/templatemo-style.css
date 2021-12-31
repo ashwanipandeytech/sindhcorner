@@ -106,7 +106,7 @@ a:focus {
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 650px;
+    height: 100vh;
 }
 
 .slider .item-first {
@@ -139,4 +139,18 @@ a:focus {
     background: #ce3232;
     border-color: transparent;
     color: #ffffff;
+}
+@media only screen and (max-width: 576px) and (orientation: portrait) {
+    .slider .item {
+        background-size: contain;
+        height: 243px;
+    }
+    .slider .caption { 
+        justify-content: flex-end;
+        padding: 0; 
+    }
+    .slider .caption .hero-section-title {
+        margin-bottom: 15px;
+        font-size: 1.5em;
+    }
 }
