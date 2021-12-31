@@ -1,7 +1,7 @@
 /**************************************
 
     File Name: style.css
-    Template Name: Testo
+    Template Name: New Sindh Corner
 	
 **************************************/
 
@@ -63,7 +63,6 @@ p {
 
 a:hover,
 a:focus {
-    color: #f7be27;
     text-decoration: none;
 }
 
@@ -27965,4 +27964,14 @@ nav a#pull {
 .whatsappcta {
     background-color: #65a965
 }
-@media only screen and (max-width: 576px) and (orientation: portrait) { .slider { height: 100%; } }
+
+@media only screen and (max-width: 576px) and (orientation: portrait) {
+    .slider {
+        height: 100%;
+    }
+}
+
+.float-whatsapp:hover,
+.float-whatsapp:hover {
+    color: #333;
+}
